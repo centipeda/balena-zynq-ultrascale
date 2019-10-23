@@ -1,0 +1,2 @@
+10/21
+Couldn't get the barys script to work as downloaded -- the BalenaOS guide for how to write a <machine-name>.coffee file is incorrect. Need to have 'state' as a top-level attribute (same as 'yocto'). Set this to 'experimental' for now.
