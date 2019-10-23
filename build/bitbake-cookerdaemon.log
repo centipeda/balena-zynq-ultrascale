@@ -43,3 +43,198 @@ ERROR: Traceback (most recent call last):
 FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
 
 ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 2457 at 2019-10-23 17:26:24.259639 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 17059 at 2019-10-23 17:30:11.710931 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 21078 at 2019-10-23 17:37:29.853945 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 8601 at 2019-10-23 17:59:59.725660 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 15587 at 2019-10-23 18:00:23.867968 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 8161 at 2019-10-23 18:05:33.858487 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 4926 at 2019-10-23 18:06:58.027623 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 18477 at 2019-10-23 18:08:34.214263 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 30779 at 2019-10-23 18:20:42.119526 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 29608 at 2019-10-23 18:24:46.497203 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 8604 at 2019-10-23 18:31:51.881490 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 5554 at 2019-10-23 18:33:49.178705 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+--- Starting bitbake server pid 27592 at 2019-10-23 18:41:20.721741 ---
+ERROR: Traceback (most recent call last):
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 168, in wrapped
+    return func(fn, *args)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/cookerdata.py", line 193, in parse_config_file
+    return bb.parse.handle(fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 107, in handle
+    return h['handle'](fn, data, include)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/parse_py/ConfHandler.py", line 121, in handle
+    abs_fn = resolve_file(fn, data)
+  File "/home/jcepeda/Desktop/balena/balena-zx2/layers/poky/bitbake/lib/bb/parse/__init__.py", line 125, in resolve_file
+    raise IOError(errno.ENOENT, "file %s not found in %s" % (fn, bbpath))
+FileNotFoundError: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build
+
+ERROR: Unable to parse conf/bitbake.conf: [Errno 2] file conf/bitbake.conf not found in /home/jcepeda/Desktop/balena/balena-zx2/build

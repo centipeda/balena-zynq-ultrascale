@@ -1,0 +1,2 @@
+# Supported machines
+MACHINE ?= "mars-zx2"
