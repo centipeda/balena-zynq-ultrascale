@@ -7,11 +7,11 @@
 	],
 	"arch": "armv7hf",
 	"yocto": {
-		"machine": "mars-zx2",
+		"machine": "zynq-generic",
 		"arch": "armv7hf",
 		"name": "Zynq-7000 Mars ZX2",
-		"image": "balena-image",
-		"fstype": "balenaos-img",
+		"image": "resin-image",
+		"fstype": "resinos-img",
 		"version": "yocto-warrior",
 		"deployArtifact": "balena-image-zx2.img",
 		"state": "experimental"

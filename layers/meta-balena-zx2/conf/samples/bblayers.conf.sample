@@ -11,8 +11,9 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/poky/meta-opemebedded/meta-filesystems \
     ${TOPDIR}/../layers/poky/meta-opemebedded/meta-networking \
     ${TOPDIR}/../layers/poky/meta-opemebedded/meta-python \
-    ${TOPDIR}/../layers/meta-xilinx \
+    ${TOPDIR}/../layers/meta-xilinx/meta-xilinx-bsp \
     ${TOPDIR}/../layers/meta-balena/meta-balena-common \
     ${TOPDIR}/../layers/meta-balena/meta-balena-warrior \
     ${TOPDIR}/../layers/oe-meta-go \
+    ${TOPDIR}/../layers/meta-rust \
     "

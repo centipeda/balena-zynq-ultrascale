@@ -9,7 +9,7 @@
  ---------------------------------------- 
 
 Resin specific images available:
-	balena-image
+	resin-image
 
-undefined (EXPERIMENTAL)                 : $ MACHINE=mars-zx2 bitbake balena-image
+undefined (EXPERIMENTAL)                 : $ MACHINE=zynq-generic bitbake resin-image
 

@@ -1,1 +1,1 @@
-inherit kernel-balena
+inherit kernel-resin
