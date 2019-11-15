@@ -1,4 +1,4 @@
-LCONF_VERSION = "1"
+LCONF_VERSION = "7"
 
 BBPATH = "${TOPDIR}"
 
@@ -6,14 +6,14 @@ BBFILES ?= ""
 
 BBLAYERS ?= " \
     ${TOPDIR}/../layers/poky/meta \
-    ${TOPDIR}/../layers/poky/meta-yocto \
-    ${TOPDIR}/../layers/poky/meta-opemebedded-meta-oe \
-    ${TOPDIR}/../layers/poky/meta-opemebedded/meta-filesystems \
-    ${TOPDIR}/../layers/poky/meta-opemebedded/meta-networking \
-    ${TOPDIR}/../layers/poky/meta-opemebedded/meta-python \
+    ${TOPDIR}/../layers/poky/meta-poky \
+    ${TOPDIR}/../layers/poky/meta-yocto-bsp \
+    ${TOPDIR}/../layers/meta-openembedded/meta-oe \
+    ${TOPDIR}/../layers/meta-openembedded/meta-filesystems \
+    ${TOPDIR}/../layers/meta-openembedded/meta-networking \
+    ${TOPDIR}/../layers/meta-openembedded/meta-python \
     ${TOPDIR}/../layers/meta-xilinx/meta-xilinx-bsp \
     ${TOPDIR}/../layers/meta-balena/meta-balena-common \
     ${TOPDIR}/../layers/meta-balena/meta-balena-warrior \
-    ${TOPDIR}/../layers/oe-meta-go \
     ${TOPDIR}/../layers/meta-rust \
     "

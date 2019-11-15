@@ -1,2 +1,5 @@
 # Supported machines
 MACHINE ?= "mars-zx2"
+
+DISTRO_FEATURES_append = "systemd"
+DISTRO ?= "resin-systemd"
