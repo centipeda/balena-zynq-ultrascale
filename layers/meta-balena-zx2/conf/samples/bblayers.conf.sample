@@ -13,7 +13,11 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-openembedded/meta-networking \
     ${TOPDIR}/../layers/meta-openembedded/meta-python \
     ${TOPDIR}/../layers/meta-xilinx/meta-xilinx-bsp \
+    ${TOPDIR}/../layers/meta-xilinx/meta-xilinx-standalone \
+    ${TOPDIR}/../layers/meta-xilinx/meta-xilinx-contrib \
     ${TOPDIR}/../layers/meta-balena/meta-balena-common \
     ${TOPDIR}/../layers/meta-balena/meta-balena-warrior \
     ${TOPDIR}/../layers/meta-rust \
+    ${TOPDIR}/../layers/meta-balena-zx2 \
+    ${TOPDIR}/../layers/meta-virtualization \
     "

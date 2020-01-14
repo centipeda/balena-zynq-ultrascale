@@ -1,2 +1,12 @@
 10/21
 Couldn't get the barys script to work as downloaded -- the BalenaOS guide for how to write a <machine-name>.coffee file is incorrect. Need to have 'state' as a top-level attribute (same as 'yocto'). Set this to 'experimental' for now.
+
+12/06
+Build fails on 'gen_mod_headers' -- kernel is not in path that bitbake expects it to be in.. Workaround is to build once, let build fail, then manually set $obj_dir in build/tmp/work/zynq_generic-poky-linux-gnueabi/kernel-modules-headers/1.0-r0/gen_mod_headers to the value in fixes/gen_mod_headers.fix.
+
+12/12
+Build fails on kernel-headers-test -- looks like docker is not in the sysroot, so bitbake can't find it. Maybe try to symlink from /usr/bin/docker to sysroot...
+Previous issue has stopped occurring with gen_mod_headers after git pull-ing. Might have been fixed in a recent commit.
+
+1/14
+Installation of docker to sysroot might be fixed by adding meta-virtualization to bblayers.conf.

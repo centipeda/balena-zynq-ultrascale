@@ -22,3 +22,6 @@
 [submodule "modded-balena-yocto-scripts"]
 	path = modded-balena-yocto-scripts
 	url = https://github.com/centipeda/modded-balena-yocto-scripts/
+[submodule "layers/meta-virtualization"]
+	path = layers/meta-virtualization
+	url = https://git.yoctoproject.org/git/meta-virtualization

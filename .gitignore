@@ -1,5 +1,9 @@
 build/*
 build/
+builds/*
+builds/
+.gitignore
+taskdir
 node_modules
 *.log
 balena-yocto-scripts/

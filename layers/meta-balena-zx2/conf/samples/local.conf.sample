@@ -1,5 +1,5 @@
 # Supported machines
-MACHINE ?= "mars-zx2"
+MACHINE ?= "qemu-zynq7 mars-zx2 zynq-generic"
 
 DISTRO_FEATURES_append = "systemd"
 DISTRO ?= "resin-systemd"

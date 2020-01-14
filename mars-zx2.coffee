@@ -13,7 +13,7 @@ module.exports =
     name: 'Zynq-7000 Mars ZX2'
     image: 'resin-image'
     fstype: 'resinos-img'
-    version: 'yocto-warrior'
+    version: 'yocto-thud'
     deployArtifact: 'balena-image-zx2.img'
     state: 'experimental'
 
