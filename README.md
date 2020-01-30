@@ -1,2 +1,2 @@
-# balena-zx2
-BalenaOS build for the Mars ZX2 SoC.
+# balena-zynq7000
+BalenaOS build for the Xilinx Zynq-7000 line.
