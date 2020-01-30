@@ -5,6 +5,7 @@
 	"aliases": [
 		"zx2"
 	],
+	"name": "BalenaOS on Zynq-7000 (EXPERIMENTAL)",
 	"arch": "armv7hf",
 	"yocto": {
 		"machine": "zynq-generic",
@@ -12,7 +13,7 @@
 		"name": "Zynq-7000 Mars ZX2",
 		"image": "resin-image",
 		"fstype": "resinos-img",
-		"version": "yocto-thud",
+		"version": "yocto-warrior",
 		"deployArtifact": "balena-image-zx2.img",
 		"state": "experimental"
 	},
@@ -24,7 +25,6 @@
 			"path": "/config.json"
 		}
 	},
-	"name": "undefined (EXPERIMENTAL)",
 	"options": [
 		{
 			"isGroup": true,

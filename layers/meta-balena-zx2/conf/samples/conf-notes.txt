@@ -10,5 +10,5 @@
 Resin specific images available:
 	resin-image
 
-undefined (EXPERIMENTAL)                 : $ MACHINE=zynq-generic bitbake resin-image
+BalenaOS on Zynq-7000 (EXPERIMENTAL)     : $ MACHINE=zynq-generic bitbake resin-image
 

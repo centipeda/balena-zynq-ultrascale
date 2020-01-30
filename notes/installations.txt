@@ -1,6 +1,0 @@
-[12/04]
-Installed npm, jq
-Added jcepeda to docker group
-
-[12/06]
-Turned on aufs with `sudo modprobe aufs`

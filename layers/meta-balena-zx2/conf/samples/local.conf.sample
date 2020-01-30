@@ -1,5 +1,9 @@
 # Supported machines
-MACHINE ?= "qemu-zynq7 mars-zx2 zynq-generic"
+# MACHINE ?= "qemu-zynq7 mars-zx2 zynq-generic"
+MACHINE ?= "zynq-generic"
 
-DISTRO_FEATURES_append = "systemd"
+DISTRO_FEATURES_append = "systemd virtualization"
 DISTRO ?= "resin-systemd"
+
+HOSTTOOLS_append = "/usr/bin/docker"
+HOSTOOLS += "/usr/bin/docker"

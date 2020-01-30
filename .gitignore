@@ -2,6 +2,7 @@ build/*
 build/
 builds/*
 builds/
+notes/
 .gitignore
 taskdir
 node_modules

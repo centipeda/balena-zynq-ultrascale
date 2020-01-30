@@ -1,2 +1,2 @@
 # balena-zx2
-BalenaOS build for the Mars ZX2 SoC.
+BalenaOS build for generic Zynq machines.

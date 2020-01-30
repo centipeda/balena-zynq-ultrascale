@@ -6,6 +6,7 @@ module.exports =
   slug: 'mars-zx2'
   state: 'experimental'
   aliases: [ 'zx2' ]
+  name: 'BalenaOS on Zynq-7000'
   arch: 'armv7hf'
   yocto:
     machine: 'zynq-generic'
@@ -13,7 +14,7 @@ module.exports =
     name: 'Zynq-7000 Mars ZX2'
     image: 'resin-image'
     fstype: 'resinos-img'
-    version: 'yocto-thud'
+    version: 'yocto-warrior'
     deployArtifact: 'balena-image-zx2.img'
     state: 'experimental'
 
