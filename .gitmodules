@@ -25,3 +25,6 @@
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena
+[submodule "layers/meta-xilinx-tools"]
+	path = layers/meta-xilinx-tools
+	url = https://github.com/Xilinx/meta-xilinx-tools

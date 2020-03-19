@@ -1,0 +1,5 @@
+# Supported machines
+MACHINE ?= "zynq-generic marspm3-zynq7"
+
+DISTRO_FEATURES_append = "systemd virtualization"
+DISTRO ?= "resin-systemd"

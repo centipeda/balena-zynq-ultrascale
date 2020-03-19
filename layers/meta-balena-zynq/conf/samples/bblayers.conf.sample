@@ -17,6 +17,9 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-xilinx/meta-xilinx-contrib \
     ${TOPDIR}/../layers/meta-balena/meta-balena-common \
     ${TOPDIR}/../layers/meta-balena/meta-balena-warrior \
+    ${TOPDIR}/../layers/meta-xilinx-tools \
     ${TOPDIR}/../layers/meta-rust \
-    ${TOPDIR}/../layers/meta-balena-zx2 \
+    ${TOPDIR}/../layers/meta-balena-zynq \
+    ${TOPDIR}/../layers/meta-marspm3-bsp \
     "
+    

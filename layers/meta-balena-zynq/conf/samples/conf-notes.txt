@@ -10,5 +10,6 @@
 Resin specific images available:
 	resin-image
 
+BalenaOS on Mars PM3 Board with ZX2 Module (EXPERIMENTAL) : $ MACHINE=marspm3-zynq7 bitbake resin-image
 BalenaOS on Zynq-7000 (EXPERIMENTAL)     : $ MACHINE=zynq-generic bitbake resin-image
 
