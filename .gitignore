@@ -8,3 +8,4 @@ taskdir
 node_modules
 *.log
 balena-yocto-scripts/
+.vscode

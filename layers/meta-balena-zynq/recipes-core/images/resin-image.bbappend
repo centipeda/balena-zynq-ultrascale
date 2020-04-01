@@ -12,9 +12,3 @@ RESIN_BOOT_PARTITION_FILES_remove = "resin-logo.png:/splash/resin-logo.png \
                                      system-connections/resin-sample.ignore:/system-connections/resin-sample.ignore \
                                      system-connections/README.ignore:/system-connections/README.ignore \
                                      "
-#     " \
-#     boot.bin: \
-#     u-boot-${MACHINE}.img:/u-boot-dtb.img \
-#     uEnv.txt: \
-#     uImage:image.ub \
-#     "
