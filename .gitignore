@@ -1,6 +1,8 @@
-build/*
-build/
-builds/*
+build/sstate-cache
+build/tmp
+build/cache
+build/workspace
+build/downloads
 builds/
 notes/
 .gitignore
