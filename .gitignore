@@ -3,6 +3,8 @@ build/tmp
 build/cache
 build/workspace
 build/downloads
+build/conf/sanity_info
+build/conf/templateconf.cfg
 builds/
 notes/
 .gitignore
@@ -11,3 +13,4 @@ node_modules
 *.log
 balena-yocto-scripts/
 .vscode
+*.swp
