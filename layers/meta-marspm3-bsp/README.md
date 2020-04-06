@@ -2,6 +2,9 @@
 
 This layer provides hardware support for the [Enclustra Mars PM3 base board](), where this build of BalenaOS will be tested.
 
+This layer was created by referencing an old version of the meta-xilinx-community Yocto layer, which had a configuration file for the Mars PM3, but the latest version of the layer is for Yocto 1.6 Daisy:
+* http://git.yoctoproject.org/cgit/cgit.cgi/meta-xilinx-community/tree/conf/machine/zx3-pm3-zynq7.conf?h=daisy
+
 
 ## Directory Structure
 ```
@@ -51,4 +54,6 @@ layers/meta-marspm3-bsp/
 
 ## Rationale
 
-The main concern of this layer is providing a `$MACHINE` which can be provided to BitBake as a hardware target for BalenaOS's `resin-image` package. 
+The main concern of this layer is providing a `$MACHINE` which can be provided to BitBake as a hardware target for BalenaOS's `resin-image` package.
+
+## Build Process
