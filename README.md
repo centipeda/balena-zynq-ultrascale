@@ -76,4 +76,4 @@ bitbake resin-image
 The bulk of the configuration performed by this repository is performed in the two custom Yocto layers, `layers/meta-balena-zynq` and `layers/meta-marspm3-bsp`. See their READMEs:
 
 * [meta-balena-zynq](./layers/meta-balena-zynq/README.md)
-* [meta-marspm3-zynq7](./layers/meta-marspm3-zynq7/README.md)
+* [meta-marspm3-bsp](./layers/meta-marspm3-bsp/README.md)
