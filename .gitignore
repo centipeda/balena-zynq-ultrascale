@@ -1,10 +1,4 @@
-build/sstate-cache
-build/tmp
-build/cache
-build/workspace
-build/downloads
-build/conf/sanity_info
-build/conf/templateconf.cfg
+build/
 builds/
 notes/
 .gitignore
