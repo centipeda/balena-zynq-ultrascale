@@ -1,3 +1,0 @@
-inherit resin-u-boot
-
-

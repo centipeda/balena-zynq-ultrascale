@@ -1,9 +1,8 @@
-DEPENDS = "bootbin qemuwrapper-cross"
+DEPENDS = "bootbin"
 
-IMAGES_FSTYPES_zynq-generic = "balenaos-img"
+IMAGES_FSTYPES_zynq-generic = "resinos-img"
 IMAGE_FSTYPES_append_marspm3-zynq7 = "resinos-img"
 RESIN_BOOT_PARTITION_FILES = "boot.bin: \
-                              u-boot-${MACHINE}.img:/u-boot-dtb.img \
                               uEnv.txt: \
                               uImage: \
                               "
