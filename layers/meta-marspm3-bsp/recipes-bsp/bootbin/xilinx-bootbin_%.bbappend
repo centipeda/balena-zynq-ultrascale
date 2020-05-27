@@ -2,7 +2,7 @@
 # since we're using pregenerated FSBL and bitstream files from Petalinux, instead of generating
 # them within Yocto.
 
-PROVIDES += "bootbin"
+PROVIDES += " virtual/bootbin bootbin"
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 BIF_PARTITION_IMAGE[fsbl] := "${THISDIR}/files/zynq_fsbl.elf"
