@@ -1,4 +1,4 @@
-# balena-zynq
+# balena-zynq-ultrascale
 
 The goal of this repository is to run [BalenaOS](https://www.balena.io/os/) on any Zynq-UltraScale+ device. Since this repository was created according to the official Balena guidelines on "supporting your own board," I recommend that you read [their documentation](https://www.balena.io/os/docs/custom-build/) first.
 
