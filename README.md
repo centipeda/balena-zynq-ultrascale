@@ -1,6 +1,6 @@
 # balena-zynq
 
-The goal of this repository is to run [BalenaOS](https://www.balena.io/os/) on the [Enclustra Mars PM3 base board](https://www.enclustra.com/en/products/base-boards/mars-pm3/). More generally, it aims to run BalenaOS on any Zynq-7000-based device. Since this repository was created according to the official Balena guidelines on "supporting your own board," I recommend that you read [their documentation](https://www.balena.io/os/docs/custom-build/) first.
+The goal of this repository is to run [BalenaOS](https://www.balena.io/os/) on any Zynq-UltraScale+ device. Since this repository was created according to the official Balena guidelines on "supporting your own board," I recommend that you read [their documentation](https://www.balena.io/os/docs/custom-build/) first.
 
 ## Repository Structure
 ```
